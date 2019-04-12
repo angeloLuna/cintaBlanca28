@@ -1,10 +1,10 @@
 let nombre = document.getElementById('nombre')
-let boton = document.getElementById('boton')
-let texto = document.getElementById('texto')
+let email = document.getElementById('email')
+let edad = document.getElementById('edad')
+let boton =
 
 const handleClick = () => {
   let inputText = nombre.value
-
   texto.innerHTML = inputText
 }
 
